@@ -6,7 +6,7 @@ import App from './App'
 // Service Worker 登録（オフライン対応）
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
+    navigator.serviceWorker.register('/GomiCalendarPWA/sw.js')
   })
 }
 
