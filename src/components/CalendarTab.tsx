@@ -8,7 +8,7 @@ const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土']
 const LEGEND_KEYS: GarbageTypeKey[] = [
   'moerugomi', 'yoki', 'moenanigomi',
   'danboard', 'shimbun', 'zasshi', 'furugi', 'kamipak', 'petbottle',
-  'spray', 'lithium', 'kan', 'yugai', 'haishokuyu',
+  'bin', 'spray', 'lithium', 'kan', 'yugai', 'haishokuyu',
 ]
 
 function getCustomNotifs(): string[] {

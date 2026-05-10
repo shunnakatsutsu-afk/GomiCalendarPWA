@@ -26,9 +26,9 @@ export function getGarbageTypes(date: Date): GarbageTypeKey[] {
     case 2: {
       types.push('moerugomi')
       const c = weeksBetween(TUESDAY_REF, d) % 4
-      if      (c === 0) types.push('spray', 'lithium')
+      if      (c === 0) types.push('bin', 'spray', 'lithium')
       else if (c === 1) types.push('kan')
-      else if (c === 2) types.push('yugai', 'lithium')
+      else if (c === 2) types.push('bin', 'yugai', 'lithium')
       else              types.push('kan')
       break
     }

@@ -20,6 +20,7 @@ const _types = {
   furugi:      { id: 'furugi',      label: '古布',                color: '#0d9488', lightColor: '#e6f7f5', emoji: '👕', isBag: false },
   kamipak:     { id: 'kamipak',     label: '紙パック',             color: '#0369a1', lightColor: '#e0f2fe', emoji: '🥛', isBag: false },
   petbottle:   { id: 'petbottle',   label: 'ペットボトル',          color: '#0ab5d8', lightColor: '#e6f9fd', emoji: '🍶', isBag: false },
+  bin:         { id: 'bin',         label: 'びん',                color: '#3478f6', lightColor: '#e8f0ff', emoji: '🍾', isBag: false },
 
   // ---- 有害・特殊系（それぞれ個別の色）----
   spray:       { id: 'spray',       label: 'スプレー缶・ライター',  color: '#d42b2b', lightColor: '#fde8e8', emoji: '💨', isBag: false },

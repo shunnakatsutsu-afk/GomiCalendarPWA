@@ -24,7 +24,7 @@ const CAT_TO_KEY: Record<string, GarbageTypeKey | null> = {
   'かん':                'kan',
   '有害ごみ':             'yugai',
   '家庭用廃食用油':       'haishokuyu',
-  'びん':                null,
+  'びん':                'bin',
   '粗大ごみ':             null,
   '市では収集できないもの': null,
   'せん定した枝':         null,
@@ -32,7 +32,6 @@ const CAT_TO_KEY: Record<string, GarbageTypeKey | null> = {
 }
 
 const CAT_FALLBACK: Record<string, { color: string; lightColor: string; emoji: string }> = {
-  'びん':                { color: '#3478f6', lightColor: '#e8f0ff', emoji: '🍶' },
   '粗大ごみ':             { color: '#8e8e93', lightColor: '#f2f2f7', emoji: '🛋️' },
   '市では収集できないもの': { color: '#d42b2b', lightColor: '#fde8e8', emoji: '🚫' },
   'せん定した枝':         { color: '#2db56c', lightColor: '#e8f8ef', emoji: '🌿' },

@@ -6,7 +6,7 @@ import { GarbageIcon } from './GarbageIcon'
 const ALL_TYPES: GarbageTypeKey[] = [
   'moerugomi', 'yoki', 'moenanigomi',
   'danboard', 'shimbun', 'zasshi', 'furugi', 'kamipak', 'petbottle',
-  'spray', 'lithium', 'kan', 'yugai', 'haishokuyu',
+  'bin', 'spray', 'lithium', 'kan', 'yugai', 'haishokuyu',
 ]
 
 export default function GarbageListTab() {
